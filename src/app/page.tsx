@@ -473,6 +473,15 @@ export default function Home() {
           <br />
           ← Repeat interval &nbsp;|&nbsp; → Next interval
         </p>
+
+        <a
+          href="https://github.com/emezeske/interval-trainer"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block text-xs text-gray-600 hover:text-gray-400 text-center transition-colors"
+        >
+          GitHub
+        </a>
       </div>
     </div>
   );
