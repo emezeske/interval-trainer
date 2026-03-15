@@ -1,8 +1,14 @@
 # 🎸 Interval Trainer
 
+**[Try it live →](https://interval-trainer-alpha.vercel.app/)**
+
 A web-based ear-training app for guitar players. It plays two notes and challenges you to identify the interval by ear.
 
 > **100% vibe-coded** — this entire repo was built through natural-language conversations with GitHub Copilot (Claude), with no manual coding. See [PROMPTS.md](PROMPTS.md) for the full conversation history.
+
+## Feature Requests
+
+Fork this repo and then have your agent talk to my agent.
 
 ## How It Works
 
@@ -27,17 +33,17 @@ A web-based ear-training app for guitar players. It plays two notes and challeng
 
 ## Configuration
 
-| Setting | Range | Default |
-| --- | --- | --- |
-| Interval modes | Ascending, Descending, Harmonic | All three |
-| Allowed intervals | Any subset of 1–24 semitones | 1–12 (up to octave) |
-| Note duration | 0.3–3.0 s | 1.2 s |
-| Delay between notes | 0.1–2.0 s | 0.6 s |
-| Waveform | Pluck, Sine, Triangle, Square, Sawtooth | Pluck |
-| Min fret | 0–23 | 0 |
-| Max fret | 1–24 | 20 |
-| Max fret jump | 1–24 | 5 |
-| Adaptive difficulty | On / Off | On |
+| Setting             | Range                                   | Default             |
+| ------------------- | --------------------------------------- | ------------------- |
+| Interval modes      | Ascending, Descending, Harmonic         | All three           |
+| Allowed intervals   | Any subset of 1–24 semitones            | 1–12 (up to octave) |
+| Note duration       | 0.3–3.0 s                               | 1.2 s               |
+| Delay between notes | 0.1–2.0 s                               | 0.6 s               |
+| Waveform            | Pluck, Sine, Triangle, Square, Sawtooth | Pluck               |
+| Min fret            | 0–23                                    | 0                   |
+| Max fret            | 1–24                                    | 20                  |
+| Max fret jump       | 1–24                                    | 5                   |
+| Adaptive difficulty | On / Off                                | On                  |
 
 ## Getting Started
 
