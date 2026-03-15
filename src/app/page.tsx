@@ -63,7 +63,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-950 text-white flex flex-col items-center px-4 py-8">
       <h1 className="text-3xl font-bold mb-2">🎸 Interval Trainer</h1>
       <p className="text-gray-400 mb-8 text-center">
-        Train your ear to recognize guitar intervals
+        Train your ear and your fingers on the fretboard
       </p>
 
       <div className="w-full max-w-md space-y-6">
